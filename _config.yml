@@ -1,8 +1,20 @@
-layout_spectrum: 0.2284105
-typography_spectrum: 0.3598332
+layout_spectrum: 0.3610764
+name: RPKingLaw.com
+collections:
+  - index:
+      navigable: true
+      path: /
+      number: 15
+      paginate: true
+    feed:
+      format: rss
+      path: /rss.xml
+      number: 10
+    permalink:
+      path: '/:title/'
 color:
-  lightness: 0.7941176
   brandStrength: 0.5350438
+  lightness: 0.2196496
   saturation: 0.479975
   rhythmicContrast: 0.2334168
   brandColors:
@@ -11,4 +23,4 @@ color:
     - '#F4AFAB'
     - '#F4EEA9'
     - '#F4F482'
-name: RPKingLaw.com
+typography_spectrum: 0.9017522
